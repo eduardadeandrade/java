@@ -1,4 +1,6 @@
- paciente =paulo
+document
+
+paciente =paulo
  
  peso = 56
 
