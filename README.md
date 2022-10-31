@@ -1,7 +1,11 @@
-<tr class="paciente" id="primeiro-paciente">
-    <td class="info-nome">Paulo</td>
-    <td class="info-peso">100</td>
-    <td class="info-altura">2.00</td>
-    <td class="info-gordura">10</td>
-    <td class="info-imc">0</td>
-</tr># java
+var paciente = document.querySelector("#primeiro-paciente");
+
+var tdPeso = paciente.querySelector(".info-peso");
+var peso = tdPeso.textContent;
+
+var tdAltura = paciente.querySelector(".info-altura");
+var altura = tdAltura.textContent;
+
+var imc = peso / altura * altura; // 100 / 2.0 x 2.0 = 100 / 4 =>>>>>>> 25
+
+console.log(imc);
